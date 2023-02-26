@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { client } from '../../../Components/client';
+	import { client } from '../../../../Components/client';
 	import { onMount } from 'svelte';
-	import { rounds } from '../../../Components/models';
-	import { get_score } from '../../../Components/utils';
+	import { rounds } from '../../../../Components/models';
+	import { get_score } from '../../../../Components/utils';
 
 	let id: number = parseInt($page.params.id);
 

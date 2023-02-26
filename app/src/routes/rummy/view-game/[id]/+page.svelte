@@ -3,13 +3,13 @@
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 
-	import { rounds } from '../../../Components/models';
-	import { client } from '../../../Components/client';
+	import { rounds } from '../../../../Components/models';
+	import { client } from '../../../../Components/client';
 
 	// import type { Chart } from '@types/chart.js';
 	// import { Chart } from '@types/chart.js';
 	import Chart from 'chart.js/auto';
-	import { get_score } from '../../../Components/utils';
+	import { get_score } from '../../../../Components/utils';
 
 	let id: number = parseInt($page.params.id);
 
