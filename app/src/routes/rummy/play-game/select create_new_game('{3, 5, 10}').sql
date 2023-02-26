@@ -1,0 +1,1 @@
+select create_new_game('{3, 5, 10}')
