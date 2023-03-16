@@ -4,7 +4,7 @@
  -->
 <script lang="ts">
 	import { getContext } from 'svelte';
-import { rounds } from '../models';
+	import { rounds } from '../models';
 
 	const { data, xGet, yGet, zGet } = getContext('LayerCake');
 

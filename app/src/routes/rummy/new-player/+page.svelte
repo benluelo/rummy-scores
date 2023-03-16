@@ -1,6 +1,4 @@
 <script lang="ts">
-	throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
-
 	import Chip, { Set as ChipSet, Text as ChipText } from '@smui/chips';
 	import Button from '@smui/button';
 	import { goto } from '$app/navigation';
@@ -8,9 +6,6 @@
 	import { client } from '../../../Components/client';
 	import { onMount } from 'svelte';
 
-	// export let client: Client;
-
-	let id: number;
 	let new_player_name = '';
 	let all_players: Player[] = [];
 

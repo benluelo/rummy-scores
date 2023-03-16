@@ -46,9 +46,7 @@
 								return capitalize(item.dataset.label!) + ': ' + item.formattedValue + ' points';
 							},
 							afterLabel: function (item) {
-								return (
-									'Score this round: ' + (<any>item.raw).round_score.toString() + ' points'
-								);
+								return 'Score this round: ' + (<any>item.raw).round_score.toString() + ' points';
 							},
 							title: function (items) {
 								return (

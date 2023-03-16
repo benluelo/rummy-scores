@@ -38,8 +38,8 @@
 		: isBandwidth
 		? $xScale.domain()
 		: typeof ticks === 'function'
-		// @ts-ignore
-		? ticks($xScale.ticks())
+		? // @ts-ignore
+		  ticks($xScale.ticks())
 		: $xScale.ticks(ticks);
 </script>
 
